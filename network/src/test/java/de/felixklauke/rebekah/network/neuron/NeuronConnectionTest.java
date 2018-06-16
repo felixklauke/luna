@@ -1,5 +1,9 @@
 package de.felixklauke.rebekah.network.neuron;
 
+import de.felixklauke.rebekah.network.function.ActivationFunction;
+import de.felixklauke.rebekah.network.function.IdentityActivationFunction;
+import de.felixklauke.rebekah.network.function.InputSummingFunction;
+import de.felixklauke.rebekah.network.function.WeightedSummingFunction;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,6 +14,9 @@ import static org.junit.Assert.assertEquals;
  */
 public class NeuronConnectionTest {
 
+    private final InputSummingFunction inputSummingFunction = new WeightedSummingFunction();
+    private final ActivationFunction activationFunction = new IdentityActivationFunction();
+
     private static final double WEIGHT = 20;
     private Neuron sourceNeuron;
     private Neuron destinationNeuron;
@@ -17,8 +24,8 @@ public class NeuronConnectionTest {
 
     @Before
     public void setUp() {
-        sourceNeuron = new Neuron();
-        destinationNeuron = new Neuron();
+        sourceNeuron = new Neuron(inputSummingFunction, activationFunction);
+        destinationNeuron = new Neuron(inputSummingFunction, activationFunction);
 
         neuronConnection = new NeuronConnection(sourceNeuron, destinationNeuron, WEIGHT);
     }

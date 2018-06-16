@@ -61,4 +61,22 @@ public class NeuronConnection {
     public Neuron getSource() {
         return source;
     }
+
+    /**
+     * Get the non weighted input of this connection calculated by the neurons activation function.
+     *
+     * @return The non weighted input.
+     */
+    public double getInput() {
+        return source.calculateOutput();
+    }
+
+    /**
+     * Get the weighted input.
+     *
+     * @return The weighted input.
+     */
+    public double getWeightedInput() {
+        return getInput() * weight;
+    }
 }
