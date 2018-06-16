@@ -1,4 +1,4 @@
-package de.felixklauke.rebekah.network.function;
+package de.felixklauke.luna.network.function;
 
 /**
  * @author Felix Klauke <info@felix-klauke.de>

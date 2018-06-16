@@ -1,4 +1,4 @@
-package de.felixklauke.rebekah.network.function;
+package de.felixklauke.luna.network.function;
 
 import org.junit.Before;
 import org.junit.Test;

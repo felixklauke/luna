@@ -1,6 +1,6 @@
-package de.felixklauke.rebekah.network;
+package de.felixklauke.luna.network;
 
-import de.felixklauke.rebekah.network.layer.NeuralNetworkLayer;
+import de.felixklauke.luna.network.layer.NeuralNetworkLayer;
 import org.junit.Before;
 import org.junit.Test;
 

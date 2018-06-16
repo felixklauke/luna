@@ -1,6 +1,6 @@
-package de.felixklauke.rebekah.network.function;
+package de.felixklauke.luna.network.function;
 
-import de.felixklauke.rebekah.network.neuron.NeuronConnection;
+import de.felixklauke.luna.network.neuron.NeuronConnection;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
-package de.felixklauke.rebekah.network.layer;
+package de.felixklauke.luna.network.layer;
 
-import de.felixklauke.rebekah.network.function.IdentityActivationFunction;
-import de.felixklauke.rebekah.network.function.WeightedSummingFunction;
-import de.felixklauke.rebekah.network.neuron.Neuron;
+import de.felixklauke.luna.network.function.IdentityActivationFunction;
+import de.felixklauke.luna.network.function.WeightedSummingFunction;
+import de.felixklauke.luna.network.neuron.Neuron;
 import org.junit.Before;
 import org.junit.Test;
 

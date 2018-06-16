@@ -1,7 +1,7 @@
-package de.felixklauke.rebekah.network.neuron;
+package de.felixklauke.luna.network.neuron;
 
-import de.felixklauke.rebekah.network.function.ActivationFunction;
-import de.felixklauke.rebekah.network.function.InputSummingFunction;
+import de.felixklauke.luna.network.function.ActivationFunction;
+import de.felixklauke.luna.network.function.InputSummingFunction;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package de.felixklauke.rebekah.network.function;
+package de.felixklauke.luna.network.function;
 
 /**
  * A simple activation function that adds a constant bias to the total input.

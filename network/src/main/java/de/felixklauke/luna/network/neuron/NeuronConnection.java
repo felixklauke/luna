@@ -1,4 +1,4 @@
-package de.felixklauke.rebekah.network.neuron;
+package de.felixklauke.luna.network.neuron;
 
 /**
  * The connection between two neurons holding its weight.
