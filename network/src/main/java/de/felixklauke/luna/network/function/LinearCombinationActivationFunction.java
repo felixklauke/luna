@@ -21,13 +21,6 @@ public class LinearCombinationActivationFunction implements ActivationFunction {
         this.bias = bias;
     }
 
-    /**
-     * Create a new linear combination activation function by a default bias of 0.
-     */
-    public LinearCombinationActivationFunction() {
-        this(0);
-    }
-
     @Override
     public double processOutput(double totalInput) {
         return totalInput + bias;
