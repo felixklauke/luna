@@ -1,5 +1,5 @@
 # luna
-Feature rich and powerful neural real life assistant based on a neural network.
+Resources to demonstrate the structure of a neural network. While this is not a real implementation it's more like an explanation. Resources are used for one of my medium articles.
 
 # Build Status
 dev
