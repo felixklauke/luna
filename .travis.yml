@@ -20,3 +20,13 @@ notifications:
 ####################
 script:
   - mvn clean compile
+
+##################
+### Deployment ###
+##################
+deploy:
+  provider: script
+  script: mvn deploy --settings deploy/maven-settings.xml
+  on:
+    branch: master
+    tags: true
